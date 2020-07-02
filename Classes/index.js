@@ -20,7 +20,9 @@ IT ALSO HAS ANOTHER PROPERTY type THAT EQUALS THE STRING 'parent class'
 */
 
 function MyFirstClass(name) {
-  // CODE HERE
+  if (name == undefined){
+    name = 0;
+  }
 }
 
 /*
@@ -30,7 +32,9 @@ USING THE PROTOTYPE CHAIN, ADD THE METHOD getNumberOfChars THAT JUST RETURNS THE
 
 */
 
-// CODE HERE
+let x = "JavaScript"
+
+console.log(x.getNumberOfChars);
 
 /*
 QUESTION 3
