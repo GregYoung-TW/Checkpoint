@@ -16,7 +16,10 @@ CREATE A FUNCTION THAT TAKES A CALLBACK AND INVOKES THAT CALLBACK FUNCTION
 */
 
 function higherOrder(callback) {
-  // CODE HERE
+  function q2(callback) {
+    var greet ="hello word"
+    callback(greet)
+  }
 }
 
 /*
@@ -27,7 +30,8 @@ CREATE A FUNCTION ACCEPTS ONE ARGUMENT, A CALLBACK THAT RETURNS THE RETURN VALUE
 */
 
 function q2(callback) {
-  // CODE HERE
+  var greet ="hello word"
+  callback(greet)
 }
 
 /*
